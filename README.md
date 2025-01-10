@@ -1,4 +1,4 @@
-# FedPop-Hyperparameter-Optimization-For-Federated-Learning
+# FedPop Hyperparameter Optimization For Federated Learning
 
 ## Introduction
 
