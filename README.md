@@ -35,7 +35,7 @@ The code is divided into 4 jupyter notebook as follows:
 
 3. `iid_no_hyperparameter_optimization.ipynb`: This notebook contains the federated learning setup without hyperparameter optimization, using IID datasets for comparison.
 
-4. `non_iid_no_hyperparameter_optimization.ipynb`: This notebook trains a federated learning model without hyperparameter optimization, using non-IID datasets for comparison.
+4. `FedNormal Non IID.ipynb.ipynb`: This notebook trains a federated learning model without hyperparameter optimization, using non-IID datasets for comparison.
 
 List of hyperparameters to test the model on should be put as list variables on the last code block in the ipynb files. 
 Results for all these are stored in a folder called `results`.
