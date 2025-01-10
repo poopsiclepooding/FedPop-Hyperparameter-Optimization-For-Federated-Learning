@@ -10,22 +10,7 @@ Federated Learning allows multiple decentralized clients to collaboratively trai
 
 This project includes experiments on both IID (Independent and Identically Distributed) and non-IID datasets. The results from these experiments aim to demonstrate how this approach can improve the performance of federated learning in diverse scenarios.
 
-## Installation and FIles
-
-The code is divided into 4 jupyter notebook as follows:
-
-1. `iid_hyperparameter_optimization.ipynb`: This notebook demonstrates hyperparameter optimization using gradient descent on IID datasets, where data distributions across clients are the same.
-
-2. `non_iid_hyperparameter_optimization.ipynb`: This notebook demonstrates hyperparameter optimization on non-IID datasets, where data distributions vary across clients.
-
-3. `iid_no_hyperparameter_optimization.ipynb`: This notebook contains the federated learning setup without hyperparameter optimization, using IID datasets for comparison.
-
-4. `non_iid_no_hyperparameter_optimization.ipynb`: This notebook trains a federated learning model without hyperparameter optimization, using non-IID datasets for comparison.
-
-List of hyperparameters to test the model on should be put as list variables on the last code block in the ipynb files. 
-Results for all these are stored in a folder called `results`.
-
-To run:
+## Installation
 
 1. Git clone this repository
 ```bash
@@ -39,3 +24,18 @@ pip install -r requirements.txt
 ```
 
 3. Run the jupyter notebooks
+
+## FIles
+
+The code is divided into 4 jupyter notebook as follows:
+
+1. `iid_hyperparameter_optimization.ipynb`: This notebook demonstrates hyperparameter optimization using gradient descent on IID datasets, where data distributions across clients are the same.
+
+2. `non_iid_hyperparameter_optimization.ipynb`: This notebook demonstrates hyperparameter optimization on non-IID datasets, where data distributions vary across clients.
+
+3. `iid_no_hyperparameter_optimization.ipynb`: This notebook contains the federated learning setup without hyperparameter optimization, using IID datasets for comparison.
+
+4. `non_iid_no_hyperparameter_optimization.ipynb`: This notebook trains a federated learning model without hyperparameter optimization, using non-IID datasets for comparison.
+
+List of hyperparameters to test the model on should be put as list variables on the last code block in the ipynb files. 
+Results for all these are stored in a folder called `results`.
