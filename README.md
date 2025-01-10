@@ -39,7 +39,7 @@ The code is divided into 4 jupyter notebook as follows:
 
 5. `FlwrTest.ipynb` : This notebook is to check working of Flower Library.
 
-6. `GradientBackTesty.ipynb` : This notebook is to check working of gradient descent through hyperparameters.
+6. `GradDescentBackCheck.ipynb` : This notebook is to check working of gradient descent through hyperparameters.
 
 List of hyperparameters to test the model on should be put as list variables on the last code block in the ipynb files. 
 Results for all these are stored in a folder called `results`.
