@@ -29,13 +29,17 @@ pip install -r requirements.txt
 
 The code is divided into 4 jupyter notebook as follows:
 
-1. `iid_hyperparameter_optimization.ipynb`: This notebook demonstrates hyperparameter optimization using gradient descent on IID datasets, where data distributions across clients are the same.
+1. `FedPopsicleV1.ipynb`: This notebook demonstrates hyperparameter optimization using gradient descent on IID datasets, where data distributions across clients are the same.
 
-2. `non_iid_hyperparameter_optimization.ipynb`: This notebook demonstrates hyperparameter optimization on non-IID datasets, where data distributions vary across clients.
+2. `FedPopsicleV1 Non IID.ipynb`: This notebook demonstrates hyperparameter optimization on non-IID datasets, where data distributions vary across clients.
 
-3. `iid_no_hyperparameter_optimization.ipynb`: This notebook contains the federated learning setup without hyperparameter optimization, using IID datasets for comparison.
+3. `FedNormal.ipynb`: This notebook contains the federated learning setup without hyperparameter optimization, using IID datasets for comparison.
 
 4. `FedNormal Non IID.ipynb.ipynb`: This notebook trains a federated learning model without hyperparameter optimization, using non-IID datasets for comparison.
+
+5. `FlwrTest.ipynb` : This notebook is to check working of Flower Library.
+
+6. `GradientBackTesty.ipynb` : This notebook is to check working of gradient descent through hyperparameters.
 
 List of hyperparameters to test the model on should be put as list variables on the last code block in the ipynb files. 
 Results for all these are stored in a folder called `results`.
